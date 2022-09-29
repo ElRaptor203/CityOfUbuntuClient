@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/iEnterTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome1"
+        android:textColor="@color/green_1"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/iLogoImg"
+        android:layout_width="wrap_content"
+        android:layout_height="327dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/welcome2"
+        android:textColor="@color/green_1"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:id="@+id/iEnterBtn"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginTop="90dp"
+        android:text="Entrer"
+        android:textSize="25dp"/>
+
+</LinearLayout>

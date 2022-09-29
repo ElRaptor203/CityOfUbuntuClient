@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CityOfUbuntuClient</string>
+    <string name="welcome1">Bienvenue chez City of Ubuntu Client</string>
+    <string name="welcome2">A place where dreams come true</string>
+    <string name="mes_fruits">Mes Fruits</string>
+    <string name="todo">TODO</string>
+    <string name="fruits">Fruits</string>
+    <string name="iOkock">Okock est un légume qui présente les caractéristique suivante...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

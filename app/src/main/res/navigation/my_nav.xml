@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeActivity">
+    <activity
+        android:id="@+id/homeActivity"
+        android:name="com.example.cityofubuntu.HomeActivity"
+        android:label="activity_home"
+        tools:layout="@layout/activity_home" />
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.example.cityofubuntu.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" />
+    <fragment
+        android:id="@+id/thirthFragment"
+        android:name="com.example.cityofubuntu.ThirthFragment"
+        android:label="fragment_thirth"
+        tools:layout="@layout/fragment_thirth" />
+</navigation>
